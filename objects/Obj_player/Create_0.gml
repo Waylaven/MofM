@@ -13,4 +13,4 @@ state = Scr_moveState;
 attacked = false;
 face = 0;
 grabFlag = false;
-//test
+//tes
