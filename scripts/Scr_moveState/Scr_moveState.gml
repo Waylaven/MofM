@@ -13,6 +13,19 @@ if (Obj_inputHelper.bowAttack_key)
 	state = Scr_bowAttackState;
 }
 
+//TEST VALUES, REMOVE IF NOT USED
+if (Obj_inputHelper.test_key)
+{
+	var p = instance_create_layer(x, y, layerelementtype_instance, Obj_projectileParent,);
+	var xforce = lengthdir_x(20, face*90);
+	var yforce = lengthdir_y(20, face*90);
+	p.creator = id;
+	with (p) 
+	{
+		physics_apply_impulse(x, y, xforce, yforce)
+	}
+}
+
 //Due to the nature of the grab key, it is handled 
 //in the collision between the player object and the 
 // Obj_movableArchitectureParent

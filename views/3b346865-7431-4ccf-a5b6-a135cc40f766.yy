@@ -17,7 +17,8 @@
         "a6a97fa6-bbca-46d0-a594-351b54467ad6",
         "4bc0c06e-939a-494a-aa2b-bcabf9699a9e",
         "4b530f7f-85cc-4f2d-8209-c9da3f7494d8",
-        "aa1f4215-8695-4eb1-b8e9-c7eef56b4b6c"
+        "aa1f4215-8695-4eb1-b8e9-c7eef56b4b6c",
+        "2b3f41d5-9268-4b1e-a2f8-34b2d584f240"
     ],
     "filterType": "GMObject",
     "folderName": "Helper Objects",
