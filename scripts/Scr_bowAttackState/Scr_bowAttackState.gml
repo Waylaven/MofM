@@ -26,7 +26,7 @@ if (image_index > 4 and attacked == false)
 		 instance_create_layer(x, y + 40, layerelementtype_instance, Obj_arrow_down);
 		 attacked = true;
 		 attCounter = 0;
-		 //
+		 //o
 		}
 		*/
 		cHelper = instance_create_layer(x, y + 40, layerelementtype_instance, Obj_arrow_down);
